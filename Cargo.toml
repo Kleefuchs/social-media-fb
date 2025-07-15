@@ -1,0 +1,10 @@
+[package]
+name = "femboy-forum-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rweb = {version = "0.15.0", features = ["openapi"]}
+serde = "1.0.219"
+sqlx = "0.8.6"
+tokio = "1.46.1"
